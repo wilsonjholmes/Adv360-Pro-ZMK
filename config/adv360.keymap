@@ -43,7 +43,7 @@
    &kp TAB      &kp Q     &kp W     &kp F      &kp P   &kp B                &tog 4                                                                         &mo 2   &kp J     &kp L      &kp U       &kp Y  &kp SEMICOLON   &kp BSLH
    &kp ESC      &kp A     &kp R     &kp S      &kp T   &kp G                 &none     &kp LGUI   &kp LALT                   &kp LGUI   &kp LEFT_ALT       &none   &kp M     &kp N      &kp E       &kp I          &kp O    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp D   &kp V                 &none        &none  &kp LCTRL   &none   &none  &kp RCTRL          &none       &none   &kp K     &kp H  &kp COMMA  &kp PERIOD       &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp ESCAPE  &lt 5 SPACE    &kp TAB                  &kp ENTER  &kp BACKSPACE  &kp DELETE          &kp DOWN     &kp UP    &kp LBKT       &kp RBKT      &mo 2
+     &mo 1  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp ESCAPE  &lt 5 SPACE    &kp TAB                  &kp ENTER  &kp BACKSPACE  &kp DELETE          &kp DOWN     &kp UP    &kp LBKT       &kp RBKT      &mo 1
             >;
         };
 
