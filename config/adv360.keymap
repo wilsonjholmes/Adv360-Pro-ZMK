@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
@@ -26,8 +25,8 @@
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        quick_tap_ms = <175>;
+        tapping-term-ms = <150>;
+        quick_tap_ms = <0>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
@@ -41,7 +40,7 @@
             bindings = <
  &kp EQUAL          &kp N1          &kp N2       &kp N3            &kp N4  &kp N5                &tog 6                                                                         &mo 1  &kp N6             &kp N7               &kp N8           &kp N9           &kp N0  &kp MINUS
    &kp TAB           &kp Q           &kp W        &kp F             &kp P   &kp B                &tog 4                                                                         &mo 2   &kp J              &kp L                &kp U            &kp Y    &kp SEMICOLON   &kp BSLH
-   &kp ESC  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T   &kp G                 &none     &kp LGUI   &kp LALT                   &kp LGUI   &kp LEFT_ALT       &none   &kp M  &mt RIGHT_SHIFT N  &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O    &kp SQT
+   &kp ESC  &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LCTRL S  &hm LEFT_SHIFT T   &kp G                 &none     &kp LGUI   &kp LALT                   &kp LGUI   &kp LEFT_ALT       &none   &kp M  &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_GUI O    &kp SQT
  &kp LSHFT           &kp Z           &kp X        &kp C             &kp D   &kp V                 &none        &none  &kp LCTRL   &none   &none  &kp RCTRL          &none       &none   &kp K              &kp H            &kp COMMA       &kp PERIOD         &kp FSLH  &kp RSHFT
      &mo 1       &kp GRAVE        &kp CAPS     &kp LEFT         &kp RIGHT                    &kp ESCAPE  &lt 5 SPACE    &kp TAB                  &kp ENTER  &kp BACKSPACE  &kp DELETE                   &kp DOWN               &kp UP         &kp LBKT         &kp RBKT      &mo 1
             >;
