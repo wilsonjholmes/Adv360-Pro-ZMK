@@ -19,24 +19,19 @@
 
 / {
   behaviors {
-    #include "macros.dtsi"
-
-    hm: left_hand_positional_hold_tap {
+    hm: balanced_homerow_mods {
         compatible = "zmk,behavior-hold-tap";
-        label = "LEFT_POSITIONAL_HOLD_TAP";
+        label = "HOMEROW_MODS";
         #binding-cells = <2>;
-        tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]
-        quick_tap_ms = <200>;
-        flavor = "tap-unless-interrupted";
+        tapping-term-ms = <200>;    // <---[[moderate duration]]
+        quick_tap_ms = <0>;
+        flavor = "balanced";
         bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <5 6 7 8 9 10>;    // <---[[right-hand keys]]
     };
   };
 
     keymap {
         compatible = "zmk,keymap";
-
-
         default_layer {
             bindings = <
  &kp EQUAL          &kp N1          &kp N2       &kp N3            &kp N4  &kp N5                &tog 6                                                                         &mo 1  &kp N6             &kp N7               &kp N8           &kp N9           &kp N0  &kp MINUS
