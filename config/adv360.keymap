@@ -79,11 +79,11 @@
 
         layer_gaming {
             bindings = <
-        &none   &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans             &trans                                                  &trans  &trans  &trans  &trans  &trans          &trans            &trans
- &kp LEFT_ALT   &kp B         &kp Q         &kp W         &kp E   &kp R             &trans                                                  &trans  &trans  &trans  &trans  &trans          &trans            &trans
- &kp CAPSLOCK   &kp H         &kp A         &kp S         &kp D   &kp F              &kp G  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL
-        &kp Z   &kp X         &kp C         &kp V        &trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans            &trans
-       &trans   &none        &trans    &kp ESCAPE     &kp SPACE                    &kp TAB  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans          &trans            &trans
+        &none   &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &none             &trans                                                                  &trans   &none  &trans  &trans  &trans          &trans            &trans
+ &kp LEFT_ALT   &kp B         &kp Q         &kp W         &kp E   &kp R             &trans                                                                  &trans   &none  &trans  &trans  &trans          &trans            &trans
+ &kp CAPSLOCK   &kp H         &kp A         &kp S         &kp D   &kp F              &kp G             &none         &none  &trans  &trans  &trans  &trans   &none   &none  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL
+        &kp Z   &kp X         &kp C         &kp V         &none   &none             &trans            &trans         &none  &trans  &trans  &trans  &trans  &trans   &none  &trans  &trans  &trans          &trans            &trans
+       &trans   &none         &none    &kp ESCAPE     &kp SPACE                    &kp TAB  &kp LEFT_CONTROL  &kp LEFT_ALT                  &trans  &trans  &trans          &trans  &trans  &trans          &trans            &trans
             >;
         };
 
