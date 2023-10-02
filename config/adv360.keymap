@@ -39,8 +39,8 @@
 
         default_layer {
             bindings = <
-      &kp EQUAL                &kp N1                 &kp N2            &kp N3             &kp N4  &kp N5               &tog 1                                                                                       &tog 3  &kp N6    &kp N7     &kp N8   &kp N9         &kp N0  &kp MINUS
-        &kp TAB                 &kp Q                  &kp W             &kp F              &kp P   &kp B               &tog 2                                                                                       &tog 4   &kp J     &kp L      &kp U    &kp Y  &kp SEMICOLON   &kp BSLH
+      &kp EQUAL                &kp N1                 &kp N2            &kp N3             &kp N4  &kp N5               &tog 3                                                                                       &tog 2  &kp N6    &kp N7     &kp N8   &kp N9         &kp N0  &kp MINUS
+        &kp TAB                 &kp Q                  &kp W             &kp F              &kp P   &kp B                &to 4                                                                                       &tog 1   &kp J     &kp L      &kp U    &kp Y  &kp SEMICOLON   &kp BSLH
       &kp LCTRL                 &kp A                  &kp R             &kp S              &kp T   &kp G                &none     &kp LGUI  &kp LALT   &kp LGUI  &kp LEFT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT    &none   &kp M     &kp N      &kp E    &kp I          &kp O      &kp Z
  &kp LEFT_SHIFT                 &kp Z                  &kp X             &kp C              &kp D   &kp V            &kp LCTRL        &none     &none  &kp RCTRL         &none              &none            &kp K    &kp H   &kp K     &kp H  &kp COMMA  &kp DOT      &kp SLASH  &kp GRAVE
           &to 0  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                      &kp ESC  &lt 5 SPACE   &kp TAB                                   &kp ENTER    &kp BACKSPACE  &kp DEL          &kp LEFT   &kp DOWN   &kp UP      &kp RIGHT      &to 0
@@ -79,11 +79,11 @@
 
         layer_gaming {
             bindings = <
-    &kp TILDE         &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &none               &trans                                                               &trans   &none   &none   &none   &none   &none   &none
-        &kp T         &kp B         &kp Q         &kp W         &kp E   &kp R               &trans                                                               &trans   &none   &none   &none   &none   &none   &none
- &kp CAPSLOCK         &kp H         &kp A         &kp S         &kp D   &kp F                &kp G    &kp ESC         &kp ENTER  &trans  &trans   &none   &none   &none   &none   &none   &none   &none   &none   &none
-        &kp Y         &kp U         &kp Z         &kp X         &kp C   &kp V               &trans     &trans           &kp TAB  &trans  &trans   &none  &trans  &trans   &none   &none   &none   &none   &none   &none
-       &trans  &kp LEFT_ALT        &kp N4        &kp N5        &kp N6                    &kp LSHFT  &kp SPACE  &kp LEFT_CONTROL                   &none   &none   &none           &none   &none   &none   &none  &trans
+      &kp ESC         &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4            &kp NUMBER_5                                                                &none   &none   &none   &none   &none   &none   &none
+        &kp T             &kp B         &kp Q         &kp W         &kp E         &kp R                   &to 0                                                                &none   &none   &none   &none   &none   &none   &none
+ &kp CAPSLOCK  &kp LEFT_CONTROL         &kp A         &kp S         &kp D         &kp F                   &kp G    &kp ESC         &kp ENTER  &trans  &trans   &none   &none   &none   &none   &none   &none   &none   &none   &none
+        &kp Y             &kp U         &kp Z         &kp X         &kp C         &kp V                  &trans     &trans           &kp TAB  &trans  &trans   &none  &trans  &trans   &none   &none   &none   &none   &none   &none
+       &trans      &kp LEFT_ALT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8                             &kp LSHFT  &kp SPACE  &kp LEFT_CONTROL                   &none   &none   &none           &none   &none   &none   &none  &trans
             >;
         };
 
